@@ -56,16 +56,16 @@ export default {
     },
     equal: function equal(){  
       if(this.operator == '+'){
-      this.text_content = Number(this.text_content) + Number(this.previous)
+      this.text_content = Number(this.previous) + Number(this.text_content)
       }
       if(this.operator == '-'){
-      this.text_content = Number(this.text_content) - Number(this.previous)
+      this.text_content = Number(this.previous) - Number(this.text_content)
       }
       if(this.operator == 'x'){
-      this.text_content = Number(this.text_content) * Number(this.previous)
+      this.text_content = Number(this.previous) * Number(this.text_content)
       }
       if(this.operator == '/'){
-      this.text_content = Number(this.text_content) / Number(this.previous)
+      this.text_content = Number(this.previous) / Number(this.text_content)
       }
     }
     
